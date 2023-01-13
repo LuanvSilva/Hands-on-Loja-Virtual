@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,900&family=Source+Sans+Pro:wght@200;300;400&display=swap");
+header {
+  background: #ffc107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 25px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: absolute;
+  margin: 13px 12px;
+}
+
+* {
+  color: #343a40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
