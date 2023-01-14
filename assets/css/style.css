@@ -16,8 +16,66 @@ header form button {
   position: absolute;
   margin: 13px 12px;
 }
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  color: #fff;
+  background: #ff0f9a;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  font-weight: bolder;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40;
+}
+header ul li a svg {
+  font-size: 20px;
+}
+header ul li a:hover {
+  color: initial;
+}
 
-* {
+nav.nav-produtos {
+  background: #343a40;
+  color: #fff;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px;
+}
+nav.nav-produtos ul.nav li svg {
+  font-size: 20px;
+  margin-right: 10px;
+}
+nav.nav-produtos ul.nav li:hover {
+  background-color: black;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  z-index: 999;
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #343a40;
+  border-top: 10px solid #ffc107;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+
+body {
   color: #343a40;
 }
 
