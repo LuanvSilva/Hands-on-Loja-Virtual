@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,900&family=Source+Sans+Pro:wght@200;300;400&display=swap");
 header {
-  background: #ffc107;
+  background: #669edf;
   padding: 25px;
 }
 header form input[type=text] {
@@ -47,6 +47,9 @@ nav.nav-produtos {
   background: #343a40;
   color: #fff;
 }
+nav.nav-produtos ul.nav a {
+  color: #fff;
+}
 nav.nav-produtos ul.nav li {
   position: relative;
   padding: 10px;
@@ -68,7 +71,7 @@ nav.nav-produtos ul.nav li ul.nav {
   top: 44px;
   left: 0px;
   background: #343a40;
-  border-top: 10px solid #ffc107;
+  border-top: 10px solid #669edf;
   width: 100%;
 }
 nav.nav-produtos ul.nav li ul.nav li {
