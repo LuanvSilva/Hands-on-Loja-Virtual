@@ -109,11 +109,11 @@
         </ol>
       </nav>
      <article class="row produtos-compra">
-      <figure class="col-md-7">
+      <figure class="col-md-7 mb-3">
         <img src="assets/camiseta-manga-comprida (1).jpg" alt="Camisetas Manga Comprida" class="img-fluid">
 
       </figure>
-      <section class="col-md-5">
+      <section class="col-md-5 mb-3 d-flex flex-column justify-content-around">
         <article class="produtos-conteudo">
           <h1>Camiseta Manga Comprida</h1>
           <p>
@@ -135,28 +135,34 @@
               <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
             </svg>
           </div>
+          
             <strong>R$79,90
-              <span class="d-block">Em ate 12x sen juros</span>
+              <span class="d-block">Em ate 12x sem juros</span>
             </strong>
-            <form action="#">
+            <form class="mt-3 mb-2" action="#" >
+              <div>
+                <label for="produtos-quantidade-itens">Quantidade</label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>1</option>
                 <option value="1">2</option>
                 <option value="2">3</option>
                 <option value="3">4</option>
+              </div>
               </select>
-              <button type="submit" class="btn btn-success">Comprar</button>
+              <button type="submit" class="btn btn-success col-md-12 mt-3 mb-3">Comprar</button>
             </form>
         </article>
 
       </section>
       
+      <div class="fb-comments col-md-12 mt-2 mb-3" data-href="http://127.0.0.1:5500/produto-camiseta.html" data-width="100%" data-numposts="5"></div>
      </article>
 
     </section>
     <!--End container produtos-->
 </main>
 <!-- End Conteudo do site-->
+
 
 <footer class="container-fluid">
   <!--Container-->
@@ -262,6 +268,10 @@
 
 </footer>
 
+<!--Facebook Plugin-->
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v15.0" nonce="kKd6J4cV"></script>
     
 </body>
 </html>
